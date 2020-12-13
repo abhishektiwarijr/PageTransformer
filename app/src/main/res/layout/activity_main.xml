@@ -12,13 +12,13 @@
         android:layout_height="match_parent" />
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/todaySunMoon"
+        android:id="@+id/ivSunMoon"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img_today_moon" />
+        app:srcCompat="@drawable/moon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

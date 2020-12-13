@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                         )
 
                         val progress = (numLevels * positionOffset).toInt()
-                        binding.todaySunMoon.setImageLevel(progress)
+                        binding.ivSunMoon.setImageLevel(progress)
 
                     } else {
                         val color = colors[colors.size - 1].color
